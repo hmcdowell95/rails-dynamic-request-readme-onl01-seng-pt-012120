@@ -14,4 +14,6 @@ describe 'navigate' do
     visit "/posts/#{@post.id}"
     expect(page).to have_css("h1", text: "My Post")
   end
+  
+  
 end
